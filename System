@@ -25,3 +25,22 @@ system "Marauder Territory"
       sprite planet/station6
       distance 584
       period 69.5635
+
+planet "Max K's Private Stock"
+  attributes factory urban station
+  landscape land/Officina
+  spaceport ``
+  description ``
+  shipyard "Marauder Large"
+  shipyard "Marauder Small"
+  shipyard "Marauder Adds"
+  bribe 0.06
+  security 0.5
+  tribute 1200
+    threshold 3000
+      fleet "pirate raid" 5
+      fleet "Small Northern Pirates" 7
+      fleet "Large Northern Pirates" 10
+      fleet "Marauder fleet V" 10
+      fleet "Marauder fleet VIII" 10
+      fleet "Marauder fleet X" 10
