@@ -1,0 +1,2 @@
+"landing message" "No autopilot data available from this point, manual landing is necessary."
+	planet/aus1

@@ -1,0 +1,5 @@
+event "Republic Rep+"
+	"reputation: Republic" += 100
+	
+event "Republic Rep-"
+	"reputation: Republic" -= 100
