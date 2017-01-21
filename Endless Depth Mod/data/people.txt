@@ -31,41 +31,42 @@ person "Icarus' Revenge"
 		outfits
 			"Proton Gun" 2
 			"Plasma Cannon" 2
-			"Photon Disruptor"
+			"Hardlight Cannon"
 			"Heavy Laser Turret" 2
 			"Quad Blaster Turret" 2
 			"Heavy Anti-Missile Turret" 2
-			
+				
 			"Fusion Reactor"
 			"LP288a Battery Pack"
 			"D94-YV Shield Generator"
 			"Large Radar Jammer"
 			"Liquid Nitrogen Cooler"
-			
+				
 			"A860 Atomic Thruster"
 			"Afterburner"
 			"A525 Atomic Steering"
 			"Scram Drive"
-			
-		engine -14 177
-		engine 14 177
-		gun -31 66
-		gun 31 66
-		gun -53 61
-		gun 53 61
-		gun -75 57
-		turret -7 -4 "Electron Turret"
-		turret 7 -4 "Electron Turret"
-		turret -23 14 "Electron Turret"
-		turret 23 14 "Electron Turret"
-		turret -7 -4 "Heavy Anti-Missile Turret"
-		turret 7 -4 "Heavy Anti-Missile Turret"
+				
+		gun 0 -167.5 "Hardlight Cannon"
+		gun 113 34.5 "Proton Gun"
+		gun 121 43 "Plasma Cannon"
+		gun -113 34.5 "Proton Gun"
+		gun -121 43 "Plasma Cannon"
+		engine 0 197
+		engine 22 194
+		engine -22 194
+		turret 27 159.5 "Heavy Laser Turret"
+		turret 27.5 135 "Quad Blaster Turret"
+		turret 27.5 110 "Heavy Anti-Missile Turret"
+		turret -27 159.5 "Heavy Laser Turret"
+		turret -27.5 135 "Quad Blaster Turret"
+		turret -27.5 110 "Heavy Anti-Missile Turret"
 		explode "small explosion" 50
 		explode "medium explosion" 80
 		explode "large explosion" 120
 		explode "huge explosion" 60
 		
-ship Icarus Icarus
+ship Icarus
 	sprite "ship/icarus"
 	attributes
 		category "Heavy Warship"
@@ -85,7 +86,7 @@ ship Icarus Icarus
 	outfits
 		"Proton Gun" 2
 		"Plasma Cannon" 2
-		"Photon Disruptor"
+		"Hardlight Cannon"
 		"Heavy Laser Turret" 2
 		"Quad Blaster Turret" 2
 		"Heavy Anti-Missile Turret" 2
@@ -101,19 +102,20 @@ ship Icarus Icarus
 		"A525 Atomic Steering"
 		"Scram Drive"
 			
-	engine -14 177
-	engine 14 177
-	gun -31 66
-	gun 31 66
-	gun -53 61 
-	gun 53 61
-	gun -75 57
-	turret -7 -4
-	turret 7 -4
-	turret -23 14
-	turret 23 14
-	turret -7 -4 "Heavy Anti-Missile Turret"
-	turret 7 -4 "Heavy Anti-Missile Turret"
+	gun 0 -167.5 "Hardlight Cannon"
+	gun 113 34.5 "Proton Gun"
+	gun 121 43 "Plasma Cannon"
+	gun -113 34.5 "Proton Gun"
+	gun -121 43 "Plasma Cannon"
+	engine 0 197
+	engine 22 194
+	engine -22 194
+	turret 27 159.5 "Heavy Laser Turret"
+	turret 27.5 135 "Quad Blaster Turret"
+	turret 27.5 110 "Heavy Anti-Missile Turret"
+	turret -27 159.5 "Heavy Laser Turret"
+	turret -27.5 135 "Quad Blaster Turret"
+	turret -27.5 110 "Heavy Anti-Missile Turret"
 	explode "small explosion" 50
 	explode "medium explosion" 80
 	explode "large explosion" 120

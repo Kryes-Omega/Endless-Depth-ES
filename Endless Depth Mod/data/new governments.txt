@@ -221,3 +221,28 @@ government "Free Worlds"
 	"bribe" .1
 	"friendly hail" "friendly free worlds"
 	raid "pirate raid"
+	
+#-------------------------
+#	Planetary Governments
+#	Will be 'swizzle 3'
+#-------------------------
+
+government "Han"
+	swizzle 3
+	color .91 .42 .09
+	
+	"player reputation" 2
+	"attitude toward"
+		"Alpha" -.3
+		"Merchant" .25
+		"Militia" .1
+		"Pirate" -.4
+		"Southern Raiders" -.4
+		"Northern Raiders" -.3
+		"Mafia" -.3
+		"Navy (Oathkeeper)" .1
+		"Neutral" .1
+		"Republic" .1
+	"friendly hail" "friendly navy"
+	"hostile hail" "hostile navy"
+	raid "pirate raid"

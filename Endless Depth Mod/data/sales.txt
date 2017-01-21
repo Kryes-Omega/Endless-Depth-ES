@@ -1,0 +1,6 @@
+shipyard "Southbound Basics"
+	"Clipper"
+	"Fury"
+	"Argosy"
+	"Hauler"
+	"Jump Tanker"

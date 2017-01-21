@@ -1491,7 +1491,7 @@ system Nunki
 			
 system Gienah
 	pos -176 354
-	government Mafia
+	government Pirate
 	habitable 534.375
 	belt 1939
 	link Persian
@@ -1554,7 +1554,7 @@ system Gienah
 		
 system Algenib
 	pos -118 341
-	government Mafia
+	government Pirate
 	habitable 455.625
 	belt 1273
 	link Gienah
@@ -2084,51 +2084,7 @@ system Alhena
 			distance 275
 			period 12.2356
 			
-system Almaaz
-	pos -349 -538
-	government Pirate
-	habitable 1080
-	belt 1873
-	link Hatysa
-	link Mintaka
-	link Unagi
-	asteroids "small rock" 34 4.8195
-	asteroids "medium rock" 17 6.5772
-	asteroids "large rock" 33 4.3659
-	asteroids "small metal" 1 3.6288
-	asteroids "large metal" 1 7.2576
-	minables iron 7 7.81811
-	minables silicon 6 9.57028
-	minables silver 4 6.29355
-	trade Clothing 253
-	trade Electronics 841
-	trade Equipment 511
-	trade Food 226
-	trade "Heavy Metals" 1142
-	trade Industrial 754
-	trade "Luxury Goods" 1073
-	trade Medical 814
-	trade Metal 523
-	trade Plastic 308
-	fleet "Small Northern Pirates" 500
-	fleet "Large Northern Pirates" 600
-	fleet "Large Republic" 4000
-	fleet "Large Siege" 7000
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/rock10
-		distance 186.96
-		period 31.1151
-	object
-		sprite planet/ganymede
-		distance 588.37
-		period 173.71
-	object Freedom
-		sprite planet/cloud2
-		distance 930.93
-		period 345.719
+
 		
 system Denebola
 	pos -478 70
@@ -3893,7 +3849,7 @@ system Han
 			sprite planet/ice7
 			distance 161
 			period 18.0139
-		object AtmoRing
+		object AtmoRingD
 			sprite planet/station2
 			distance 161
 			period 12
@@ -3911,8 +3867,8 @@ system Han
 		period 2703.02
 		
 system "Darkstone Surface"
-	pos -6100 5610
-	government Republic
+	pos -610 551
+	government "Han"
 	habitable 1080.62
 	belt 1517
 	trade Clothing 337
@@ -3939,12 +3895,12 @@ system "Darkstone Surface"
 			sprite planet/city1
 			distance 1000
 			period 0
-	object AtmoRing
+	object AtmoRingD
 		sprite planet/station2
 		distance 0
 		period 0
 			
-planet AtmoRing
+planet AtmoRingD
 
 planet "Darkstone City"
 	attributes south farming frontier
@@ -3954,3 +3910,101 @@ planet "Darkstone City"
 	spaceport `Once every few months, one pirate band or another will land here demanding tribute in the form of food. The locals respond by just keeping a big enough supply on hand to satisfy them; any sort of planetary defenses would cost far more than the price of the amount of food that an average fleet of warships can carry. But once they recognize that you are here to trade and not to steal, they greet you quite enthusiastically.`
 	outfitter "Ammo South"
 	security 0.9
+	
+system Wei
+	pos -598 369
+	government Republic
+	habitable 455.625
+	belt 1927
+	link Seginus
+	link Alnasl
+	link Kornephoros
+	link Alioth
+	asteroids "large metal" 1 3.1824
+	trade Clothing 319
+	trade Electronics 718
+	trade Equipment 391
+	trade Food 162
+	trade "Heavy Metals" 1140
+	trade Industrial 619
+	trade "Luxury Goods" 1074
+	trade Medical 731
+	trade Metal 516
+	trade Plastic 486
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Southern Pirates" 4000
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 5000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust2
+		distance 145.14
+		period 32.767
+	object
+		sprite planet/lava1
+		distance 334.14
+		period 114.459
+	object Hope
+		sprite planet/ice2
+		distance 605.15
+		period 278.966
+		object AtmoRingH
+			sprite planet/station2
+			distance 161
+			period 12
+	object
+		sprite planet/gas3
+		distance 2438.44
+		period 2256.44
+		object
+			sprite planet/lava0
+			distance 290
+			period 11.9475
+		object
+			sprite planet/tethys
+			distance 384
+			period 18.2044
+		object
+			sprite planet/rock14
+			distance 492
+			period 26.4015
+			
+planet AtmoRingH
+
+system "Hope Surface"
+	pos -612 369
+	government Uninhabited
+	habitable 455.625
+	belt 1927
+	trade Clothing 319
+	trade Electronics 718
+	trade Equipment 391
+	trade Food 162
+	trade "Heavy Metals" 1140
+	trade Industrial 619
+	trade "Luxury Goods" 1074
+	trade Medical 731
+	trade Metal 516
+	trade Plastic 486
+	object
+		sprite planet/wei
+		distance 0
+		period 0
+		object "Abandoned Mining Town"
+			sprite planet/city1
+			distance 584
+			period 69.5635
+	object AtmoRingH
+		sprite planet/station2
+		distance 0
+		period 0
+		
+planet "Abandoned Mining Town"
+	attributes uninhabited
+	landscape land/snowy1
+	description `In the year 2994, Hope was a somewhat cold but otherwise hospitable planet, home to a burgeoning population of almost two million people. But that year, a supervolcano eruption ejected so much dust into the upper atmosphere that a new ice age set in and the planet became unlivable. As the temperatures steadily dropped, nearly half the Republic Navy was mobilized to evacuate settlers from Hope and transport them to nearby colonies. The evacuation effort took six months.`
+	description `		Although most towns had been buried, just enough of this town is visible that is seems to have been occupied for some time, although the tenants seem to have abandoned the place, there are still remnants of their time here, such as rotten food, mining equipment, and strange bits of technology.`
+	security 0

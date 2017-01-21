@@ -1,0 +1,100 @@
+ship "Jump Tanker"
+	sprite "ship/fueltanker"
+	attributes
+		category "Light Freighter"
+		"cost" 760000
+		"shields" 5000
+		"hull" 1000
+		"required crew" 12
+		"bunks" 15
+		"mass" 400
+		"drag" 4.7
+		"heat dissipation" .3
+		"fuel capacity" 800
+		"cargo space" 5
+		"outfit space" 170
+		"weapon capacity" 20
+		"engine capacity" 75
+		"ramscoop" 10
+		weapon
+			"blast radius" 500
+			"shield damage" 1000
+			"hull damage" 1200
+			"hit force" 400
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+	engine -5 35
+	engine 5 35
+	turret -7 -26
+	explode "tiny explosion" 4
+	"final explode" "final explosion huge"
+	description "The fuel tanker is basically a flying gas station. The stock Jump Tanker holds enough fuel for 8 normal jumps, and has more ramscoop than any human device. It is used by long-distance fleets of all types throughout the galaxy, saving outfitting and cargo space for more useful items such as defensive items or trade goods, and is very cost effective in the long run."
+	description "	The one shortcoming of the Jump Tanker is its very penetrable defence. The tanker, no matter how useful, is still that, a tanker. In order to fly smoothly, armor was sacrificed in favor of speed and shields, and thus is much more dangerous when it explodes, and much weaker in general. It is advised to have a good amount of defence on other ships to protect the tanker, or for it to be held back until either the need arises or just a system behind. If all else fails, it is highly advised that you promptly, get your hull the hell out of there."
+	
+ship "Consignare"
+	sprite "ship/consignare"
+	attributes
+		category "Heavy Freighter"
+		"cost" 15600000
+		"shields" 11500
+		"hull" 11000
+		"required crew" 75
+		"bunks" 185
+		"mass" 1100
+		"drag" 18.1
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 600
+		"outfit space" 710
+		"weapon capacity" 250
+		"engine capacity" 220
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Plasma Cannon" 2
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 40
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Ramscoop"
+		
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+		
+	engine 0 197.5
+	engine -39.5 180.5
+	engine 39.5 180.5
+	gun -42 -144 "Plasma Cannon"
+	gun -52 -128.5 "Heavy Rocket Launcher"
+	gun 42 -144 "Plasma Cannon"
+	gun 52 -128.5 "Heavy Rocket Launcher"
+	turret -32 -92 "Quad Blaster Turret"
+	turret -32 -78 "Quad Blaster Turret"
+	turret -32 -63.5 "Heavy Anti-Missile Turret"
+	turret 32 -92 "Quad Blaster Turret"
+	turret 32 -78 "Quad Blaster Turret"
+	turret 32 -63.5 "Heavy Anti-Missile Turret"
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description ""

@@ -1,7 +1,7 @@
 Images:
--Galaxy image taken by GALEX observatory
--Darkstone Surface Image from NASA Landsat (https://www.nasa.gov/mission_pages/landsat/images/index.html)
--Darkstone City Image from Unsplash (https://unsplash.com/collections/151899/cityscape?photo=56vAdlqOoyc)
+NASA
+Unsplash.com
+morguefile.com
 
 People:
 -Emotion_Machine for the Pirate jobs

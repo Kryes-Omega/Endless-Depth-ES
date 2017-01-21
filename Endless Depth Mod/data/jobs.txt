@@ -9,7 +9,7 @@ mission "P Cargo [0]"
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	cargo random 5 2 .1
 	source
-		government "Pirate" 
+		government "Pirate" "Northern Raiders" "Mafia""Southern Raiders"
 	destination
 		distance 2 8
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
