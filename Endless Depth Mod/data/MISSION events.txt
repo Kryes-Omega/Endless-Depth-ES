@@ -1,11 +1,11 @@
-mission "Southern Carriers Trigger"
+mission "Depth Rep Fix"
 	landing
 	invisible
 	on offer
-		event "Depth Rep"
+		event "Depth Rep2"
 		fail
 
-event "Depth Rep"
+event "Depth Rep2"
 	"reputation: Southern Raiders" = -1
 	"reputation: Northern Raiders" = -1
 	"reputation: Mafia" = -1
@@ -16,7 +16,7 @@ event "Republic Rep+"
 event "Republic Rep-"
 	"reputation: Republic" -= 100
 	
-mission "Southern Carriers Trigger"
+mission "add consignare"
 	landing
 	invisible
 	to offer
