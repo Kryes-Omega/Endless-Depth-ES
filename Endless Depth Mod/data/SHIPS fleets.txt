@@ -391,10 +391,10 @@ fleet "Diamond Cargo"
 	variant 3
 		"Falcon" 2
 		"Leviathan"
-		"Bulk Freighter (Trap)"
+		"Bulk Freighter (Decoy)"
 		"Dagger" 6
 	variant 3
 		"Splinter" 3
 		"Vanguard" 2
-		"Behemoth (Trap)"
+		"Behemoth (Decoy)"
 		"Lance" 6
