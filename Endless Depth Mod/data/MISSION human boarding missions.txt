@@ -18,7 +18,7 @@ mission "Boarding Cargo [0]"
 		random < 10
 	on offer
 		conversation
-			`As you repair the <origin>, the captain walks up to you and tells you that the ship is carrying a cargo of <cargo>, and it needs to get to <planet>, in the <destination> system. The crew is worried that they can't make it with a damaged ship, so they want you to take it there instead.`
+			`As you repair the <origin>, the captain walks up to you and tells you that the ship is carrying a cargo of <cargo>, and it needs to get to <destination>. The crew is worried that they can't make it with a damaged ship, so they want you to take it there instead.`
 			choice
 				`"I'd be glad to."`
 					goto yes
@@ -49,7 +49,7 @@ mission "Boarding Cargo [1]"
 		random < 15
 	on offer
 		conversation
-			`As you repair the <origin>, the captain walks up to you and tells you that the ship is carrying a cargo of <cargo>, and it needs to get to <planet>, in the <destination> system. The crew is worried that they can't make it with a damaged ship, so they want you to take it there instead.`
+			`As you repair the <origin>, the captain walks up to you and tells you that the ship is carrying a cargo of <cargo>, and it needs to get to <destination>. The crew is worried that they can't make it with a damaged ship, so they want you to take it there instead.`
 			choice
 				`"I'd be glad to."`
 					goto yes
@@ -80,7 +80,7 @@ mission "Boarding Cargo [2]"
 		random < 17
 	on offer
 		conversation
-			`As you repair the <origin>, the captain walks up to you and tells you that the ship is carrying a cargo of <cargo>, and it needs to get to <planet>, in the <destination> system. The crew is worried that they can't make it with a damaged ship, so they want you to take it there instead.`
+			`As you repair the <origin>, the captain walks up to you and tells you that the ship is carrying a cargo of <cargo>, and it needs to get to <destination>. The crew is worried that they can't make it with a damaged ship, so they want you to take it there instead.`
 			choice
 				`"I'd be glad to."`
 					goto yes

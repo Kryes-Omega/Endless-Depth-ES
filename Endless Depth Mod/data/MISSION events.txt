@@ -1,0 +1,85 @@
+mission "Southern Carriers Trigger"
+	landing
+	invisible
+	on offer
+		event "Depth Rep"
+		fail
+
+event "Depth Rep"
+	"reputation: Southern Raiders" = -1
+	"reputation: Northern Raiders" = -1
+	"reputation: Mafia" = -1
+
+event "Republic Rep+"
+	"reputation: Republic" += 100
+	
+event "Republic Rep-"
+	"reputation: Republic" -= 100
+	
+mission "Southern Carriers Trigger"
+	landing
+	invisible
+	to offer
+		has "free worlds plot completed"
+	on offer
+		event "add consignare 1" 30
+		event "add consignare 2" 60
+		event "add consignare 3" 90
+		fail
+		
+event "add consignare 1"
+	shipyard "Southbound Advanced"
+		"Consignare"
+	fleet "Large Southern Merchants"
+		variant 9
+			"Consignare"
+			"Freighter" 2
+		variant 5
+			"Consignare"	
+		variant 5
+			"Consignare"
+			"Hauler I" 3
+		variant 7
+			"Consignare"
+			"Hauler II" 2
+		variant 5
+			"Consignare"
+			"Hauler III" 1
+			
+event "add consignare 2"
+	fleet "Large Core Merchants"
+		variant 9
+			"Consignare"
+			"Freighter" 2
+		variant 5
+			"Consignare"
+		variant 7
+			"Consignare"
+			"Bulk Freighter" 2
+		variant 3
+			"Consignare"
+			"Hauler I" 2
+		variant 1
+			"Consignare"
+			"Hauler I" 3
+		variant 2
+			"Consignare"
+			"Hauler II" 2
+		variant 1
+			"Consignare"
+			"Hauler III" 1
+			
+event "add consignare 3"
+	fleet "Large Northern Merchants"
+		variant 9
+			"Consignare"
+			"Freighter" 2
+		variant 7
+			"Consignare"
+			"Behemoth" 2
+		variant 7
+			"Consignare"
+			"Behemoth"
+		variant 3
+			"Consignare"
+			"Bulk Freighter"

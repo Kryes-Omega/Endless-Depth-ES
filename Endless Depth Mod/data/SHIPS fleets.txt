@@ -362,3 +362,39 @@ fleet "Large Siege"
 		"Frigate"
 		"Rainmaker" 2
 		"Gunboat"
+		
+fleet "Diamond Cargo"
+	government "Merchant"
+	names "civilian"
+	fighters "republic fighter"
+	cargo 0
+	personality
+		fleeing
+	variant 5
+		"Falcon" 2
+		"Leviathan"
+		"Bulk Freigher (Diamond)"
+	variant 3
+		"Falcon" 2
+		"Leviathan"
+		"Bulk Freighter (Decoy)"
+		"Freighter (Diamond)"
+	variant 5
+		"Splinter" 3
+		"Vanguard" 2
+		"Behemoth (Diamond)"
+	variant 3
+		"Splinter" 3
+		"Vanguard" 2
+		"Behemoth (Decoy)"
+		"Argosy (Diamond)"
+	variant 3
+		"Falcon" 2
+		"Leviathan"
+		"Bulk Freighter (Trap)"
+		"Dagger" 6
+	variant 3
+		"Splinter" 3
+		"Vanguard" 2
+		"Behemoth (Trap)"
+		"Lance" 6
