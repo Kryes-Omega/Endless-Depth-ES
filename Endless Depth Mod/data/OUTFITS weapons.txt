@@ -39,6 +39,7 @@ outfit "Detonator"
 		lifetime 1
 		velocity 30
 		"blast radius" 10
+		"trigger radius" 100
 		"shield damage" 10
 		"hull damage" 1000
 		"submunition" "Detonite" 1
@@ -50,6 +51,6 @@ outfit "Detonite"
 		sprite "projectile/detonite"
 			"frame rate" 1
 		lifetime 1
-		velocity 1
+		velocity 100
 		"shield damage" 1
 		"hull damage" 1
