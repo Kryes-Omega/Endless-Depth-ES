@@ -1,0 +1,309 @@
+ship "Fleet Station"
+	sprite "ship/alf-fleet"
+	attributes
+		category "Heavy Warship"
+		"cost" 20500000
+		"shields" 120000
+		"hull" 115000
+		"required crew" 4355
+		"bunks" 6000
+		"mass" 30000
+		"drag" 1000
+		"heat dissipation" .5
+		"fuel capacity" 1500
+		"cargo space" 25
+		"outfit space" 2000
+		"weapon capacity" 400
+		"engine capacity" 0
+		weapon
+			"blast radius" 500
+			"shield damage" 20000
+			"hull damage" 10000
+			"hit force" 5000
+	outfits
+		"Lockup Heavy Launcher" 4
+		"Lockup Missile" 240
+		
+		"Rebirth" 2
+		"Large Heat Shunt"
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Hyperdrive"
+		
+	
+	turret 62 -62 "Lockup Heavy Launcher"
+	turret 62 62 "Lockup Heavy Launcher"
+	turret -62 -62 "Lockup Heavy Launcher"
+	turret -62 62 "Lockup Heavy Launcher"
+	
+	drone 0 -300 over
+	drone 0 -240 over
+	drone 0 -180 over
+	drone 0 300 over
+	drone 0 240 over
+	drone 0 180 over
+	drone 180 0 over right
+	drone 240 0 over right
+	drone 300 0 over right
+	drone -180 0 over left
+	drone -240 0 over left
+	drone -300 0 over left
+
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion huge"
+	description ""
+	
+ship "Crusader"
+	sprite "ship/alf-crusader"
+	attributes
+		category "Heavy Warship"
+		"cost" 20500000
+		"shields" 80000
+		"hull" 145000
+		"required crew" 120
+		"bunks" 135
+		"mass" 750
+		"drag" 8.9
+		"heat dissipation" .5
+		"fuel capacity" 400
+		"cargo space" 25
+		"outfit space" 1020
+		"weapon capacity" 570
+		"engine capacity" 150
+		weapon
+			"blast radius" 150
+			"shield damage" 1200
+			"hull damage" 5000
+			"hit force" 2000
+	outfits
+		"Pincer Main Cannon" 2
+		"Cerberus Warhead Launcher"
+		"Lockup Heavy Launcher" 2
+		"Breacher Light Launcher" 2
+		
+		"Lockup Missile" 120
+		"Breacher Rocket" 150
+		"Cerberus Ion Warhead" 15
+		
+		"Rebirth"
+		"Large Heat Shunt"
+		"Antimatter Core"
+		"Nanotech Battery"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+		
+	gun 0 -125 "Cerberus Warhead Launcher"
+	gun 74 -177 "Pincer Main Cannon"
+	gun 83 -177 
+	gun -74 -177 "Pincer Main Cannon"
+	gun -83 -177 
+	turret 21 -52 
+	turret 21 -12.5 "Breacher Light Launcher"
+	turret 21 27.5 
+	turret 21 66.5 "Lockup Heavy Launcher"
+	turret 21 106.5 
+	turret -21 -52 
+	turret -21 -12.5 "Breacher Light Launcher"
+	turret -21 27.5 
+	turret -21 66.5 "Lockup Heavy Launcher"
+	turret -21 106.5 
+	engine 0 176
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion huge"
+	description "The Crusader is the heaviest warship in the Alfeiron armada. Using a special material found only in the Triangulum galaxy, it is able to have an incredible hull defence, while staying as light as a feather, so to speak. The construction of such a ship, however, is incredibly expensive so it is a rare sight to see patrolling Alfeiron space. If you do see one of these, Edict grant you a swift death."
+	
+ship "Brigand"
+	sprite "ship/alf-brigand"
+	attributes
+		category "Medium Warship"
+		"cost" 16500000
+		"shields" 60000
+		"hull" 91000
+		"required crew" 70
+		"bunks" 83
+		"mass" 660
+		"drag" 6.3
+		"heat dissipation" .55
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 890
+		"weapon capacity" 300
+		"engine capacity" 270
+		weapon
+			"blast radius" 150
+			"shield damage" 900
+			"hull damage" 3500
+			"hit force" 1350
+	outfits
+		"Pincer Main Cannon" 2
+		"Lockup Heavy Launcher" 2
+		
+		"Lockup Missile" 120
+		
+		"Rebirth"
+		"Large Heat Shunt"
+		"Antimatter Core"
+		"Nanotech Battery"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+
+	turret 12 -94.5
+	turret 19 -76 "Lockup Heavy Launcher"
+	turret 12 -57
+	turret -12 -94.5
+	turret -19 -76 "Lockup Heavy Launcher"
+	turret -12 -57
+	gun 25 -111.5 "Radiating Warp"
+	gun -25 -111.5 "Radiating Warp"
+	engine 63 208	
+	engine -63 208
+	explode "tiny explosion" 5
+	explode "small explosion" 12
+	explode "medium explosion" 10
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	
+ship "Enforcer"
+	sprite "ship/alf-enforcer"
+	attributes
+		category "Drone"
+		"cost" 16500000
+		"shields" 5000
+		"hull" 3000
+		"required crew" 0
+		"bunks" 0
+		"mass" 70
+		"drag" 1.9
+		"heat dissipation" .62
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 420
+		"weapon capacity" 150
+		"engine capacity" 200
+		weapon
+			"blast radius" 150
+			"shield damage" 200
+			"hull damage" 400
+			"hit force" 100
+	outfits
+		"Pincer Main Cannon" 2
+		
+		"Rebirth"
+		"Large Heat Shunt"
+		"Antimatter Core"
+		"Nanotech Battery"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+
+	gun 5 -29.5 "Pincer Main Cannon"
+	gun -5 -29.5 "Pincer Main Cannon"
+	engine 0.5 27
+	turret 0 17
+	explode "tiny explosion" 5
+	explode "small explosion" 4
+	explode "medium explosion" 3
+	"final explode" "final explosion medium"
+	
+ship "Enforcer" "Enforcer (Layer)"
+	sprite "ship/alf-enforcer"
+	attributes
+		category "Drone"
+		"cost" 16500000
+		"shields" 5000
+		"hull" 3000
+		"required crew" 0
+		"bunks" 0
+		"mass" 70
+		"drag" 1.9
+		"heat dissipation" .62
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 420
+		"weapon capacity" 150
+		"engine capacity" 200
+		weapon
+			"blast radius" 150
+			"shield damage" 200
+			"hull damage" 400
+			"hit force" 100
+	outfits
+		"Pincer Main Cannon"
+		"Breacher Light Launcher"
+		"Breacher Rocket" 75
+		
+		"Rebirth"
+		"Large Heat Shunt"
+		"Antimatter Core"
+		"Nanotech Battery"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+
+	gun 5 -29.5 
+	gun -5 -29.5 "Pincer Main Cannon"
+	engine 0.5 27
+	turret 0 17 "Breacher Light Launcher"
+	explode "tiny explosion" 5
+	explode "small explosion" 4
+	explode "medium explosion" 3
+	"final explode" "final explosion medium"
+	
+ship "Enforcer" "Enforcer (Locker)"
+	sprite "ship/alf-enforcer"
+	attributes
+		category "Drone"
+		"cost" 16500000
+		"shields" 5000
+		"hull" 3000
+		"required crew" 0
+		"bunks" 0
+		"mass" 70
+		"drag" 1.9
+		"heat dissipation" .62
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 420
+		"weapon capacity" 150
+		"engine capacity" 200
+		weapon
+			"blast radius" 150
+			"shield damage" 200
+			"hull damage" 400
+			"hit force" 100
+	outfits
+		"Pincer Main Cannon"
+		"Lockup Heavy Launcher"
+		"Lockup Missile" 60
+		
+		"Rebirth"
+		"Large Heat Shunt"
+		"Antimatter Core"
+		"Nanotech Battery"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+
+	gun 5 -29.5 
+	gun -5 -29.5 "Pincer Main Cannon"
+	engine 0.5 27
+	turret 0 17 "Lockup Heavy Launcher"
+	explode "tiny explosion" 5
+	explode "small explosion" 4
+	explode "medium explosion" 3
+	"final explode" "final explosion medium"

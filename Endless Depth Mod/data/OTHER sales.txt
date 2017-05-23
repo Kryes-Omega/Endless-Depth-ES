@@ -1,5 +1,0 @@
-shipyard "Southbound Basics"
-	"Jump Tanker"
-	
-shipyard "Northern Pirates"
-	"Garrison Missile"
