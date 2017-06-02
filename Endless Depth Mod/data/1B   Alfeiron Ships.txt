@@ -98,22 +98,26 @@ ship "Crusader"
 		"Medium Graviton Steering"
 		"Hyperdrive"
 		
-	gun 0 -125 "Cerberus Warhead Launcher"
-	gun 74 -177 "Pincer Main Cannon"
-	gun 83 -177 
-	gun -74 -177 "Pincer Main Cannon"
-	gun -83 -177 
-	turret 21 -52 
-	turret 21 -12.5 "Breacher Light Launcher"
-	turret 21 27.5 
-	turret 21 66.5 "Lockup Heavy Launcher"
-	turret 21 106.5 
-	turret -21 -52 
-	turret -21 -12.5 "Breacher Light Launcher"
-	turret -21 27.5 
-	turret -21 66.5 "Lockup Heavy Launcher"
-	turret -21 106.5 
-	engine 0 176
+	gun 0 -133.5 "Cerberus Warhead Launcher"
+	gun 77 -169.5 "Pincer Main Cannon"
+	gun -77 -169.5 "Pincer Main Cannon"
+	gun 87 -168.5
+	gun -87 -168.5
+	turret 32.5 -37
+	turret -32.5 -37
+	turret 32.5 6 "Breacher Light Launcher"
+	turret -32.5 6 "Breacher Light Launcher"
+	turret 32.5 49.5
+	turret -32.5 49.5 
+	turret 32.5 93 "Lockup Heavy Launcher"
+	turret -32.5 93 "Lockup Heavy Launcher"
+	turret 32.5 135.5
+	turret -32.5 135.5
+	engine 0 209
+	engine 113 237
+	engine 125.5 234
+	engine -113 237
+	engine -125.5 234
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30

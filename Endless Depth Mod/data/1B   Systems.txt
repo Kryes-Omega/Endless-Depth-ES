@@ -7,7 +7,7 @@ outfit "Heat Regenerator Mk. II"
 	"shield generation" 10.5
 	"shield energy" 14
 	"shield heat" -4
-	"energy generation" -.6
+	"energy consumption" .6
 	"heat generation" .7
 	
 outfit "Heat Regenerator Mk. I"
@@ -19,7 +19,7 @@ outfit "Heat Regenerator Mk. I"
 	"shield generation" 8.5
 	"shield energy" 11
 	"shield heat" -3
-	"energy generation" -.275
+	"energy consumption" .275
 	"heat generation" .375
 	
 outfit "Impact Regenerator"
@@ -42,7 +42,7 @@ outfit "Reactive Plating"
 	"hull" 2750
 	"shields" -2000
 	"heat generation" .75
-	"energy generation" -.75
+	"energy consumption" .75
 	
 outfit "Reactive Shielding"
 	category "Systems"
@@ -54,7 +54,7 @@ outfit "Reactive Shielding"
 	"hull" -2000
 	"shields" 2750
 	"heat generation" .75
-	"energy generation" -.75
+	"energy consumption" .75
 	
 outfit "Reactive Cooling"
 	category "Systems"
@@ -77,7 +77,7 @@ outfit "Interference Shielding"
 	"shield generation" 1
 	"shield energy" 10
 	"cooling inefficiency" 2
-	"energy generation" -.6
+	"energy consumption" .6
 	"shields" -1000
 
 outfit "Cloaking Shield"
