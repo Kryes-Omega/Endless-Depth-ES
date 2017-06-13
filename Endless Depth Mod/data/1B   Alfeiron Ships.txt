@@ -24,8 +24,8 @@ ship "Fleet Station"
 		"Lockup Heavy Launcher" 4
 		"Lockup Missile" 240
 		
-		"Rebirth" 2
-		"Large Heat Shunt"
+		"Heat Regenerator Mk. II" 2
+		"Reactive Cooling"
 		"Antimatter Core"
 		"Nanotech Battery"
 		"Hyperdrive"
@@ -89,8 +89,8 @@ ship "Crusader"
 		"Breacher Rocket" 150
 		"Cerberus Ion Warhead" 15
 		
-		"Rebirth"
-		"Large Heat Shunt"
+		"Heat Regenerator Mk. II"
+		"Reactive Cooling"
 		"Antimatter Core"
 		"Nanotech Battery"
 		
@@ -98,6 +98,8 @@ ship "Crusader"
 		"Medium Graviton Steering"
 		"Hyperdrive"
 		
+	drone 68.5 36.5 under right
+	drone -68.5 36.5 under left
 	gun 0 -133.5 "Cerberus Warhead Launcher"
 	gun 77 -169.5 "Pincer Main Cannon"
 	gun -77 -169.5 "Pincer Main Cannon"
@@ -126,6 +128,53 @@ ship "Crusader"
 	"final explode" "final explosion huge"
 	description "The Crusader is the heaviest warship in the Alfeiron armada. Using a special material found only in the Triangulum galaxy, it is able to have an incredible hull defence, while staying as light as a feather, so to speak. The construction of such a ship, however, is incredibly expensive so it is a rare sight to see patrolling Alfeiron space. If you do see one of these, Edict grant you a swift death."
 	
+ship "Ravager"
+	sprite "ship/alf-ravager"
+	attributes
+		category "Medium Warship"
+		"cost" 20500000
+		"shields" 55000
+		"hull" 71000
+		"required crew" 97
+		"bunks" 110
+		"mass" 680
+		"drag" 7.2
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 800
+		"weapon capacity" 300
+		"engine capacity" 350
+		weapon
+			"blast radius" 150
+			"shield damage" 1000
+			"hull damage" 4000
+			"hit force" 1500
+	outfits
+		"Pincer Main Cannon" 4
+		
+		"Reactive Shielding"
+		"Reactive Cooling"
+		"Antimatter Core"
+		"Nanotech Battery"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Hyperdrive"
+		
+	drone 77.5 -18.5 under
+	drone 77.5 -18.5 over
+	drone -77.5 -18.5 under
+	drone -77.5 -18.5 over
+	gun 62 -176
+	gun 75.5 -165
+	gun -62 -176
+	gun -75.5 -165
+	engine 79 209 1.5
+	engine 93.5 194 1.5
+	engine -71 209 1.5
+	engine -85.5 194 1.5
+
 ship "Brigand"
 	sprite "ship/alf-brigand"
 	attributes
@@ -154,8 +203,8 @@ ship "Brigand"
 		
 		"Lockup Missile" 120
 		
-		"Rebirth"
-		"Large Heat Shunt"
+		"Impact Regenerator"
+		"Reactive Cooling"
 		"Antimatter Core"
 		"Nanotech Battery"
 		
@@ -193,7 +242,7 @@ ship "Enforcer"
 		"heat dissipation" .62
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 420
+		"outfit space" 430
 		"weapon capacity" 150
 		"engine capacity" 200
 		weapon
@@ -204,8 +253,8 @@ ship "Enforcer"
 	outfits
 		"Pincer Main Cannon" 2
 		
-		"Rebirth"
-		"Large Heat Shunt"
+		"Reactive Shielding"
+		"Reactive Cooling"
 		"Antimatter Core"
 		"Nanotech Battery"
 		
@@ -236,7 +285,7 @@ ship "Enforcer" "Enforcer (Layer)"
 		"heat dissipation" .62
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 420
+		"outfit space" 430
 		"weapon capacity" 150
 		"engine capacity" 200
 		weapon
@@ -249,8 +298,8 @@ ship "Enforcer" "Enforcer (Layer)"
 		"Breacher Light Launcher"
 		"Breacher Rocket" 75
 		
-		"Rebirth"
-		"Large Heat Shunt"
+		"Reactive Shielding"
+		"Reactive Cooling"
 		"Antimatter Core"
 		"Nanotech Battery"
 		
@@ -281,7 +330,7 @@ ship "Enforcer" "Enforcer (Locker)"
 		"heat dissipation" .62
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 420
+		"outfit space" 430
 		"weapon capacity" 150
 		"engine capacity" 200
 		weapon
@@ -294,8 +343,8 @@ ship "Enforcer" "Enforcer (Locker)"
 		"Lockup Heavy Launcher"
 		"Lockup Missile" 60
 		
-		"Rebirth"
-		"Large Heat Shunt"
+		"Reactive Shielding"
+		"Reactive Cooling"
 		"Antimatter Core"
 		"Nanotech Battery"
 		
