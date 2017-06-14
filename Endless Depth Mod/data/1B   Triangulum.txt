@@ -1,3 +1,4 @@
+
 galaxy Triangulum
 	pos 10000 10000
 	sprite ui/m33
@@ -14,16 +15,6 @@ system A110
 	asteroids "small metal" 48 6.561
 	asteroids "medium metal" 100 8.91
 	asteroids "large metal" 47 5.994
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/g5
 		period 10
@@ -72,16 +63,6 @@ system A112
 	asteroids "large metal" 1 3.9663
 	minables aluminum 1 3.89583
 	minables tungsten 3 2.89078
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/g0
 		period 10
@@ -109,16 +90,6 @@ system A115
 	asteroids "small metal" 5 4.2891
 	asteroids "medium metal" 13 5.3824
 	asteroids "large metal" 8 12.615
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/k5
 		period 10
@@ -162,16 +133,6 @@ system A116
 	asteroids "large metal" 2 1.6562
 	minables copper 7 3.82133
 	minables iron 30 2.1886
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/k5
 		period 10
@@ -216,16 +177,6 @@ system A127
 	minables lead 4 2.60192
 	minables titanium 4 4.65582
 	minables uranium 5 4.42162
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/m0
 		period 10
@@ -276,16 +227,6 @@ system A128
 	asteroids "small metal" 1 2.4388
 	asteroids "medium metal" 47 1.7836
 	asteroids "large metal" 39 1.5834
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/m0
 		period 10
@@ -335,16 +276,6 @@ system A14
 	minables gold 3 5.59893
 	minables iron 21 6.61477
 	minables silicon 32 4.81461
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/f5
 		period 10
@@ -383,16 +314,6 @@ system A21
 	asteroids "large rock" 1 2.163
 	asteroids "small metal" 1 2.226
 	asteroids "large metal" 1 1.89
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
 	object
 		sprite star/m0
 		distance 42.5847
@@ -555,16 +476,24 @@ system A34
 			period 18.7211
 	object
 		sprite planet/gas13
-		distance 2075.3
-		period 1714.19
-		object
-			sprite planet/dust3
-			distance 281
-			period 13.2975
-		object
-			sprite planet/dust1
-			distance 434
-			period 25.5238
+		distance 2339.99
+		period 2052.39
+		offset 38.3496
+		object Dike
+			sprite planet/io
+			distance 287.519
+			period 13.7629
+			offset 258.096
+		object Eunomia
+			sprite planet/desert4
+			distance 425.525
+			period 24.7798
+			offset 259.591
+		object Eirene
+			sprite planet/miranda
+			distance 502.525
+			period 31.8014
+			offset 53.1587
 
 system A48
 	pos 10038 10008
@@ -618,6 +547,7 @@ system A66
 	habitable 625
 	link IC142
 	link A28
+	link U49
 	asteroids "small rock" 32 3.5989
 	asteroids "medium rock" 63 6.902
 	asteroids "large rock" 4 5.0286
@@ -1060,6 +990,7 @@ system U49
 	link IC142
 	link A34
 	link A71
+	link A66
 	asteroids "small rock" 1 2.0735
 	asteroids "medium rock" 10 2.4244
 	asteroids "large rock" 2 1.914
@@ -1168,4 +1099,25 @@ system "[Error: File Missing]"
 		sprite planet/whitehole
 		distance 2195.7
 		period 993.774
+
+planet Dike
+	attributes urban moon military
+	landscape land/city4
+	"required reputation" 1000
+	bribe 0
+	security 0.9
+
+planet Eirene
+	attributes urban moon military
+	landscape land/city2
+	"required reputation" 1000
+	bribe 0
+	security 0.9
+
+planet Eunomia
+	attributes urban moon military
+	landscape land/city3
+	"required reputation" 1000
+	bribe 0
+	security 0.9
 

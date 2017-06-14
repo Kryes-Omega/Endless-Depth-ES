@@ -23,7 +23,7 @@ government "Northern Raiders"
 	"attitude toward"
 		"Republic" -.2
 		"Republic (Siege Breaker)" -.1
-		"Republic (Oathkeeper)" -.2
+		"Navy (Oathkeeper)" -.2
 		"Merchant" -.1
 		"Syndicate" -.1
 		"Korath" -.01
@@ -43,7 +43,7 @@ government "Mafia"
 	"attitude toward"
 		"Republic" -.2
 		"Republic (Siege Breaker)" -.1
-		"Republic (Oathkeeper)" -.15
+		"Navy (Oathkeeper)" -.15
 		"Merchant" -.1
 		"Syndicate" -.1
 		"Korath" -.01
@@ -63,7 +63,7 @@ government "Southern Raiders"
 	"attitude toward"
 		"Republic" -.2
 		"Republic (Siege Breaker)" -.1
-		"Republic (Oathkeeper)" -.1
+		"Navy (Oathkeeper)" -.1
 		"Merchant" -.1
 		"Syndicate" -.1
 		"Korath" -.01
@@ -245,7 +245,7 @@ government "Marauder"
 		"Author" -.01
 		"Republic" -.01
 		"Republic (Siege Breaker)" -.01
-		"Republic (Oathkeeper)" -.01
+		"Navy (Oathkeeper)" -.01
 		"Southern Raiders" .01
 		"Northern Raiders" .01
 		"Pirate" .01

@@ -218,8 +218,8 @@ ship "Brigand"
 	turret -12 -94.5
 	turret -19 -76 "Lockup Heavy Launcher"
 	turret -12 -57
-	gun 25 -111.5 "Radiating Warp"
-	gun -25 -111.5 "Radiating Warp"
+	gun 25 -111.5 
+	gun -25 -111.5 
 	engine 63 208	
 	engine -63 208
 	explode "tiny explosion" 5
