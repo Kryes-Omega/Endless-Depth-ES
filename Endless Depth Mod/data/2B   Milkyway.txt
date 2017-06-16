@@ -1454,8 +1454,8 @@ system "77 : 24 : 56 : 92"
 	pos -710.99 -121.749
 	government Uninhabited
 	habitable 425.92
-	object Whitehole
-		sprite planet/whitehole
+	object edhole
+		sprite planet/wormhole
 		distance 0
 		period 0
 

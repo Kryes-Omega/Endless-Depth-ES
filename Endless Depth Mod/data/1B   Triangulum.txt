@@ -1,4 +1,3 @@
-
 galaxy Triangulum
 	pos 10000 10000
 	sprite ui/m33
@@ -459,38 +458,38 @@ system A34
 		sprite star/k0
 		period 10
 	object
-		sprite planet/rock18
+		sprite planet/ice1x
 		distance 282.69
 		period 86.1795
-		object
-			sprite planet/ice7
+		object Eishan
+			sprite planet/terra1x
 			distance 149
 			period 22.8635
 	object
-		sprite planet/gas16
+		sprite planet/gas2x
 		distance 808.05
 		period 416.481
 		object
-			sprite planet/rock14
+			sprite planet/moon3x
 			distance 233
 			period 18.7211
 	object
-		sprite planet/gas13
+		sprite planet/gas1x
 		distance 2339.99
 		period 2052.39
 		offset 38.3496
 		object Dike
-			sprite planet/io
+			sprite planet/moon1x
 			distance 287.519
 			period 13.7629
 			offset 258.096
 		object Eunomia
-			sprite planet/desert4
+			sprite planet/moon2x
 			distance 425.525
 			period 24.7798
 			offset 259.591
 		object Eirene
-			sprite planet/miranda
+			sprite planet/moon4x
 			distance 502.525
 			period 31.8014
 			offset 53.1587
@@ -1095,8 +1094,8 @@ system "[Error: File Missing]"
 	asteroids "large rock" 23 4.408
 	asteroids "medium metal" 6 2.736
 	asteroids "large metal" 4 2.9184
-	object Whitehole
-		sprite planet/whitehole
+	object edhole
+		sprite planet/wormhole
 		distance 2195.7
 		period 993.774
 
@@ -1121,3 +1120,9 @@ planet Eunomia
 	bribe 0
 	security 0.9
 
+planet Eisha
+	attributes urban moon paradise rich
+	landscape land/city1
+	"required reputation" 900
+	bribe 0
+	security 0.7
