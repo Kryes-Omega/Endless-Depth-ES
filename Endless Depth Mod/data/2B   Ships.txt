@@ -39,40 +39,7 @@ ship "Jump Tanker"
 	"final explode" "final explosion huge"
 	description "The fuel tanker is basically a flying gas station. The stock Jump Tanker holds enough fuel for 8 normal jumps, and has more ramscoop than any human device. It is used by long-distance fleets of all types throughout the galaxy, saving outfitting and cargo space for more useful items such as defensive items or trade goods, and is very cost effective in the long run."
 	description "	The one shortcoming of the Jump Tanker is its very poor defence. The tanker, no matter how useful, is still that, a tanker. In order to fly smoothly, armor was sacrificed in favor of speed and shields, and thus is much more dangerous when it explodes, and much weaker in general. It is advised to have a good amount of defence on other ships to protect the tanker, or for it to be held back until either the need arises or just a system behind. If all else fails, it is highly advised that you promptly, get your hull the hell out of there."
-		
-ship "Garrison Missile"
-	sprite "ship/dronemissile"
-	attributes
-		category "Fighter"
-		"cost" 50000
-		"shields" 5
-		"hull" 2000
-		"mass" 10
-		"drag" .8
-		automaton 1
-		"heat dissipation" .78
-		"outfit space" 85
-		"weapon capacity" 24
-		"engine capacity" 22
-		weapon
-			"blast radius" 150
-			"shield damage" 2000
-			"hull damage" 2000
-			"hit force" 100
-	outfits
-		"Detonator"
-		
-		"nGVF-AA Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
 
-		"X1050 Ion Engines"
-		
-	gun 0 -44
-	engine 0 46.5
-	explode "huge explosion" 1
-	description `The Garrison Missile is a large missile that delivers a high damage explosion on impact. Unfortunately, it is rather expensive to use in regular patrols, and too awkward to store for later, so the Republic politely declined the military contract with the producer. The Garrison Missile is bought mainly because it is the only non-illegal substitute for a nuclear warhead, as well as the bonus of being more intelligent, and can be used just as normal drones can, only they are one time use.`
-	
 ship "Behemoth" "Behemoth (Decoy)"
 	sprite "ship/behemoth"
 	attributes
