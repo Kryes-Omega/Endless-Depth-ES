@@ -352,3 +352,43 @@ ship "Freighter" "Freighter (Diamond)"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
+
+ship "AutoMiner"
+	sprite "ship/mining drone"
+	attributes
+		category "Drone"
+		licenses
+			"Civilian Drone"
+		"cost" 100000
+		"shields" 200
+		"hull" 500
+		"mass" 25
+		"drag" .7
+		"heat dissipation" .92
+		"cargo space" 30
+		"outfit space" 53
+		"weapon capacity" 6
+		"engine capacity" 24
+		"automaton" 1
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Plasma Drill" 2
+
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+
+		"X1050 Ion Engines"
+
+	gun 15.5 -39
+	gun -15.5 -39
+	engine 6.5 37.5
+	engine -6.5 37.5
+
+	explode "tiny explosion" 10
+	explode "small explosion" 10
+	description "The recent asteroid mining boom prompted companies to expand their horizons, and start sending out larger fleets of vessels outfitted for mining. Unfortunately, paying to retrofit cargo ships, as well as crew them is expensive, as there are very few ships that are able to effectively mine."
+	description "	These issues prompted shipyards to start accommodating for miners, but it wasn't enough. So, after petitioning the Republic to allow civilian drone use, the large corporations finally got the powers-that-be to give them rights to use drones, as long as they weren't equipped with any military armament."
