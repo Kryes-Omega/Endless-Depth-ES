@@ -1,11 +1,7 @@
 shipyard "Southbound Basics"
 	"Jump Tanker"
 	
-shipyard "Northern Pirates"
-	"Garrison Missile"
-	
 outfitter "Deep Sky Advanced"
-	"Dual Electron Beam"
 	"Dual Heavy Laser"
 	"Dual Beam Laser"
 	

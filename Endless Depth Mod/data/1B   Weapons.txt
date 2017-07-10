@@ -11,6 +11,8 @@ outfit "Lockup Heavy Launcher"
 	weapon
 		sprite "projectile/lockup"
 			"frame rate" 2
+		"hardpoint sprite" "hardpoint/lockuppoint"
+		"hardpoint offset" 6.
 		sound "medium missile"
 		ammo "Lockup Missile"
 		icon "icon/lockico"
@@ -55,6 +57,8 @@ outfit "Breacher Light Launcher"
 		sprite "projectile/lockup"
 			"no repeat"
 			"frame rate" 3
+		"hardpoint sprite" "hardpoint/breacherpoint"
+		"hardpoint offset" 6.
 		sound "small missile"
 		ammo "Breacher Rocket"
 		icon "icon/breachico"
