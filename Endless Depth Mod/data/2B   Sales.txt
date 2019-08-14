@@ -1,9 +1,0 @@
-shipyard "Southbound Basics"
-	"Jump Tanker"
-	
-outfitter "Deep Sky Advanced"
-	"Dual Heavy Laser"
-	"Dual Beam Laser"
-	
-outfitter "Deep Sky Basics"
-	"Dual Beam Laser"
