@@ -5,7 +5,7 @@ government "Raksis"
 	"player reputation" 1
 	"attitude toward"
 		"Pug" -.01
-		"Hakkan -.1
+		"Hakkan" -.1
 
 government "Hakkan"
 	swizzle 6

@@ -18,6 +18,7 @@ outfit "Lockup Heavy Launcher"
 		icon "icon/lockico"
 		"missile strength" 20
 		"inaccuracy" 10
+		"turret turn" 2.0
 		"velocity" 20
 		"lifetime" 120
 		"reload" 45
@@ -64,6 +65,7 @@ outfit "Breacher Light Launcher"
 		icon "icon/breachico"
 		"missile strength" 17
 		"inaccuracy" 50
+		"turret turn" 3.5
 		"velocity" 10
 		"lifetime" 90
 		"reload" 25
@@ -129,7 +131,7 @@ outfit "Cerberus Warhead Launcher"
 			"frame rate" 6
 
 		sound "large missile"
-		"hit effect" "cerb impact"
+		"hit effect" "plasma explosion"
 		ammo "Cerberus Ion Warhead"
 		icon "icon/cerbico"
 		"missile strength" 30
@@ -148,6 +150,7 @@ outfit "Cerberus Warhead Launcher"
 		"acceleration" 1
 		drag .05
 		"homing" 2
+		"radar tracking" .5
 		turn 5
 		"blast radius" 100
 		

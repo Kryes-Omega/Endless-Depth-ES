@@ -880,7 +880,7 @@ system A34
 		sprite planet/ice1x
 		distance 282.69
 		period 86.1795
-		object Eishan
+		object 
 			sprite planet/terra1x
 			distance 149
 			period 22.8635
@@ -2204,7 +2204,7 @@ system "Fal Yet Lo"
 	asteroids "large rock" 23 4.408
 	asteroids "medium metal" 6 2.736
 	asteroids "large metal" 4 2.9184
-	object edhole
+	object
 		sprite planet/wormhole
 		distance 2195.7
 		period 993.774

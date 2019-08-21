@@ -1,0 +1,88 @@
+# general scrap metal minables which will drop mostly junk, occasionally a broken outfit (something general that ships from any region have)
+# surviving payload is calculated as a binomial distribution, with n = payload value, and p = 0.25
+# it can be visualized with this: https://homepage.divms.uiowa.edu/~mbognar/applets/bin.html
+# I've included the estimated value for each minable to make sure they aren't crazily unbalanced. Numbers are not final.
+minable "junk part"
+	sprite "asteroid/iron/spin"
+	hull 800
+	payload "Junk Part" 50
+	# EV: 7500
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "final explosion large"
+
+outfit "Junk Part"
+	plural "Junk Parts"
+	category "Special"
+	cost 600
+	# New thumbnail
+	thumbnail "outfit/unknown"
+	"flotsam sprite" "effect/box"
+	"mass" 1
+	"installable" -1
+	description "Assorted spacecraft parts, including various metals that may be worth something, but will be costly to recycle. This junk isn't worth very much."
+
+
+minable "weapon part"
+	sprite "asteroid/iron/spin"
+	hull 1400
+	payload "Weapon Part" 30
+	# EV: 9000
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "final explosion large"
+
+outfit "Weapon Part"
+	plural "Weapon Parts"
+	category "Special"
+	cost 1200
+	# New thumbnail
+	thumbnail "outfit/unknown"
+	"flotsam sprite" "effect/box"
+	"mass" 1
+	"installable" -1
+	description "Various weapon parts were found adrift in space. On the open market they may not be very valuable."
+
+
+minable "fuel cell part"
+	sprite "asteroid/iron/spin"
+	hull 1400
+	payload "Fuel Cell Part" 40
+	# EV: 8500
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "final explosion large"
+
+outfit "Fuel Cell Part"
+	plural "Fuel Cell Parts"
+	category "Special"
+	cost 850
+	# New thumbnail
+	thumbnail "outfit/unknown"
+	"flotsam sprite" "effect/box"
+	"mass" 1
+	"installable" -1
+	description "Pieces of old fuel cell reactors. Although there is nothing you can do with them, someone probably has a use for them."
+
+
+# These minables will only be small ships however, interceptors, small transports, light freighters. Larger things will be added as salvage jobs. 
+# Not every ship will be used in salvage jobs, only the more common ships.
+# The hull value for each minable should be the somewhere below the disabled value for each ship, which is determined with "maximumHull * max(.15, min(.45, 10. / sqrt(maximumHull)))"
+minable "derelict sparrow"
+	# New sprite, broken up and unplunderable. Beccabunny made a Mule in the target style for Ursa Polaris.
+	sprite "ship/sparrow"
+	hull 130
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "final explosion large"
+
+
+# some common small outfits may drop rather than their 'parts' counterpart. These will be left at the bottom as they do not have an outfit counterpart to define here.
+minable "beam laser"
+	sprite "asteroid/iron/spin"
+	hull 1400
+	payload "Beam Laser" 2
+	# EV: 14500
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "final explosion large"

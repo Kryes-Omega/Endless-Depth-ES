@@ -1,0 +1,226 @@
+phrase "generic hunted merchant fleet boarded dialog"
+	word
+		# Make the stolen cargo outfits illegal, some portion of how much they're worth.
+		`The cargo the <npc> is carrying should fetch a good price, but the authorities will be watching for it.`
+
+# I still need to create the valuables these convoys will carry, but other than that they are finished.
+# Possibly change them to an auto-triggering mission with a warning in the spaceport, sort of like a traffic warning but its a pirate raid?
+
+mission "Merchant Fleet (Paradise/Near Earth)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 5
+	source
+		attributes "near earth" paradise
+	destination
+		distance 	1 3
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+			confusion 10
+		system destination
+		fleet "Large Northern Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+			confusion 10
+		system destination
+		fleet "Large Northern Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Deep)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 5
+	source
+		government "Republic"
+		attributes "deep" 
+	destination
+		distance 1 3
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Northern Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Northern Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Pirate Northern)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 20
+	source
+		attributes "north pirate"
+	destination
+		distance 2 4
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Northern Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Northern Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Lawful Northern)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 10
+	source
+		government "Republic" "Syndicate"
+		attributes "north"
+	destination
+		distance 1 3
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Northern Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Northern Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Pirate Southern)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 20
+	source
+		attributes "south pirate"
+	destination
+		distance 2 4
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Southern Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Southern Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Lawful Southern)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 10
+	source
+		government "Free Worlds" "Republic"
+		attributes "dirt belt" rim south
+	destination
+		distance 1 3
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Southern Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Southern Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Pirate Core)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 20
+	source
+		attributes "core pirate"
+	destination
+		distance 2 4
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Core Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Core Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+mission "Merchant Fleet (Lawful Core)"
+	name "Merchant Fleet Intelligence"
+	description "Rumors suggest that a large merchant fleet led by the <npc> will be passing through the <system> system sometime before <date>. It sounds like local pirate gangs are very interested."
+	repeat
+	job
+	deadline
+	to offer
+		"combat rating" > 600
+		random < 10
+	source
+		government "Syndicate"
+		attributes "core"
+	destination
+		distance 1 3
+
+	npc
+		government "Pirate"
+		personality heroic waiting plunders harvests
+		system destination
+		fleet "Large Core Pirates"
+	npc board
+		government "Merchant"
+		personality timid uninterested entering staying
+		system destination
+		fleet "Large Core Convoy"
+		dialog phrase "generic hunted merchant fleet boarded dialog"
+
+# After this I will add salvage jobs which can be found mostly on pirate planets and a few on lawful worlds.
+# Some will be regular salvage jobs, some may contain valuable cargo like the convoy fleets above, and some may have survivors if I can get that to work.
+# Which one is which will not be obvious at first for regular salvage jobs, although some may request specific items to be returned that only have value for the job.
+# The basic layout of the jobs will be: A derelict variant of a ship using the "Scrap" faction will start disabled in a nearby system, carrying unspecified cargo and outfits. The completion requirement is Board, and there is no reward for completion other than the loot you get.

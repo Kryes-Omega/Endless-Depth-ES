@@ -1,36 +1,349 @@
-fleet "Tech Convoy"
+# The 'variant' attribute numbers add up to a total, and the probability of a variant spawning is the variant's number out of the total number
+# Each of these is exactly like the Merchant counterpart, except that it has the possibility of carrying something from the Special Cargo outfitter and there are no transport variants.
+
+fleet "Large Northern Convoy"
 	government "Merchant"
 	names "civilian"
-	fighters "republic fighter"
-	cargo 0
+	outfitters "valuables"
+	cargo 2
 	personality
-		fleeing
-	variant 5
-		"Falcon" 2
-		"Leviathan"
-		"Bulk Freigher"
-		"Freighter"
+		confusion 10
+		timid uninterested entering staying
+	variant 20
+		"Freighter" 2
+		"Firebird"
+	variant 6
+		"Freighter" 2
+		"Berserker" 2
 	variant 3
-		"Falcon" 2
+		"Freighter" 2
+		"Berserker (Afterburner)" 2
+	variant 3
+		"Freighter" 2
+		"Berserker (Strike)" 2
+	variant 10
+		"Freighter" 2
+		"Firebird (Plasma)"
+	variant 10
+		"Freighter" 2
+		"Firebird (Laser)"
+	variant 10
+		"Freighter" 2
+		"Firebird (Missile)"
+	variant 10
+		"Freighter" 3
+		"Firebird"
+	variant 2
+		"Freighter" 3
+		"Firebird (Plasma)"
+	variant 2
+		"Freighter" 3
+		"Firebird (Laser)"
+	variant 2
+		"Freighter" 3
+		"Firebird (Missile)"
+	variant 20
+		"Freighter" 2
+		"Corvette"
+	variant 10
+		"Freighter" 2
+		"Corvette (Speedy)"
+	variant 10
+		"Freighter" 2
+		"Corvette (Missile)"
+	variant 10
+		"Freighter" 3
+		"Corvette"
+	variant 3
+		"Freighter" 3
+		"Corvette (Speedy)"
+	variant 3
+		"Freighter" 3
+		"Corvette (Missile)"
+	variant 1
+		"Freighter (Hai)" 2
+		"Corvette"
+	variant 6
+		"Freighter" 4
 		"Leviathan"
+	variant 6
+		"Freighter" 4
+		"Leviathan (Heavy)"
+	variant 6
+		"Freighter" 4
+		"Leviathan (Laser)"
+	variant 1
+		"Freighter (Hai)" 4
+		"Leviathan"
+	variant 30
+		"Behemoth"
+	variant 10
+		"Behemoth (Speedy)"
+	variant 10
+		"Behemoth (Proton)"
+	variant 10
+		"Behemoth"
+		"Berserker (Strike)" 3
+	variant 10
+		"Behemoth" 2
+	variant 1
+		"Behemoth (Hai)"
+	variant 4
+		"Behemoth"
+		"Headhunter" 2
+	variant 2
+		"Behemoth"
+		"Headhunter (Particle)" 2
+	variant 4
 		"Bulk Freighter"
-		"Freighter"
-	variant 5
-		"Splinter" 3
-		"Vanguard" 2
-		"Behemoth"
+		"Headhunter" 2
+	variant 2
+		"Bulk Freighter"
+		"Headhunter (Particle)" 2
+	variant 10
+		"Bulk Freighter"
+		"Sparrow" 2
+	variant 4
+		"Bulk Freighter (Heavy)"
+		"Sparrow" 2
+	variant 2
+		"Bulk Freighter (Heavy)"
+		"Berserker" 2
+	variant 2
+		"Bulk Freighter (Heavy)"
+		"Berserker (Afterburner)" 2
+	variant 4
+		"Bulk Freighter (Blaster)"
+		"Sparrow" 2
+	variant 10
+		"Behemoth" 2
+		"Firebird" 1
+	variant 10
+		"Freighter" 4
+		"Sparrow" 2
+		"Firebird" 1
 	variant 3
-		"Splinter" 3
-		"Vanguard" 2
-		"Behemoth"
+		"Freighter (Fancy)" 4
+		"Sparrow" 2
+		"Firebird (Plasma)" 1
+	variant 3
+		"Freighter (Proton)" 4
+		"Sparrow" 2
+		"Firebird (Plasma)" 1
+	variant 1
+		"Freighter (Hai)" 4
+		"Sparrow" 2
+		"Firebird" 1
+	variant 2
+		"Bactrian"
+		"Dagger" 3
+	variant 2
+		"Bactrian"
+		"Lance" 3
+	variant 8
+		"Hauler III"
+		"Hauler II"
+	variant 6
+		"Hauler II"
+		"Hauler" 3
+	variant 4
+		"Hauler III" 2
+	variant 4
+		"Hauler III"
+		"Hauler II"
+		"Headhunter" 3
+
+fleet "Large Southern Convoy"
+	government "Merchant"
+	names "civilian"
+	outfitters "valuables"
+	cargo 2
+	personality
+		confusion 30
+		timid frugal appeasing
+	variant 20
+		"Freighter"
+		"Hawk"
+	variant 10
+		"Freighter (Fancy)"
+		"Hawk"
+	variant 30
+		"Freighter" 2
+		"Sparrow" 2
+	variant 10
+		"Freighter (Fancy)"
+		"Freighter"
+		"Sparrow" 2
+	variant 30
 		"Argosy"
+	variant 20
+		"Argosy (Laser)"
+	variant 15
+		"Argosy (Missile)"
+	variant 25
+		"Argosy (Blaster)"
+	variant 15
+		"Argosy (Turret)"
+	variant 10
+		"Bastion"
+		"Freighter" 3
+	variant 10
+		"Bastion (Heavy)"
+		"Freighter (Fancy)" 3
+	variant 10
+		"Bastion (Laser)"
+		"Freighter" 3
+	variant 20
+		"Bastion"
+		"Argosy"
+	variant 10
+		"Bastion (Heavy)"
+		"Argosy (Missile)"
+	variant 10
+		"Bastion (Laser)"
+		"Argosy (Laser)"
+	variant 10
+		"Bastion"
+		"Freighter" 3
+		"Star Barge" 4
+		"Fury"
+		"Sparrow" 2
 	variant 3
-		"Falcon" 2
-		"Leviathan"
+		"Bastion (Heavy)"
+		"Freighter (Fancy)" 3
+		"Star Barge (Armed)" 4
+		"Fury (Missile)"
+		"Sparrow" 2
+	variant 20
+		"Argosy" 2
+	variant 10
+		"Argosy (Blaster)"
+		"Argosy (Laser)"
+	variant 10
+		"Argosy (Turret)"
+		"Argosy (Missile)"
+	variant 10
+		"Blackbird"
+		"Sparrow" 2
+	variant 2
+		"Bactrian"
+		"Dagger" 3
+	variant 12
+		"Hauler III"
+		"Hauler II"
+		"Hauler"
+	variant 8
+		"Hauler II"
+		"Hauler" 2
+	variant 6
+		"Hauler III"
+		"Berserker" 2
+
+fleet "Large Core Convoy"
+	government "Merchant"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 20
+		timid frugal appeasing
+	variant 30
+		"Freighter" 2
+		"Quicksilver" 2
+	variant 10
+		"Freighter (Fancy)" 2
+	variant 10
+		"Freighter (Proton)" 2
+		"Quicksilver" 2
+	variant 50
 		"Bulk Freighter"
-		"Dagger" 6
+		"Wasp (Proton)" 2
+	variant 50
+		"Bulk Freighter"
+		"Wasp"
+		"Wasp (Meteor)"
+	variant 20
+		"Bulk Freighter (Blaster)"
+		"Wasp" 2
+	variant 10
+		"Bulk Freighter (Heavy)"
+		"Wasp (Proton)" 2
+	variant 10
+		"Bulk Freighter (Proton)"
+		"Wasp (Proton)" 2
+	variant 10
+		"Bulk Freighter (Proton)"
+		"Wasp"
+		"Wasp (Meteor)"
+	variant 20
+		"Bulk Freighter"
+	variant 10
+		"Bulk Freighter (Blaster)"
+	variant 5
+		"Bulk Freighter (Heavy)"
+	variant 5
+		"Bulk Freighter (Proton)"
+	variant 20
+		"Star Barge (Armed)" 3
+	variant 10
+		"Bulk Freighter" 2
+		"Quicksilver" 1
+		"Splinter" 1
+	variant 4
+		"Bulk Freighter (Blaster)"
+		"Bulk Freighter (Heavy)"
+		"Quicksilver" 1
+		"Splinter (Laser)" 1
+	variant 4
+		"Bulk Freighter (Blaster)"
+		"Bulk Freighter (Proton)"
+		"Quicksilver" 1
+		"Splinter (Proton)" 1
+	variant 10
+		"Freighter" 4
+		"Quicksilver" 2
+		"Splinter" 1
 	variant 3
-		"Splinter" 3
-		"Vanguard" 2
-		"Behemoth"
-		"Lance" 6
+		"Freighter" 4
+		"Quicksilver" 2
+		"Splinter (Laser)" 1
+	variant 3
+		"Freighter" 4
+		"Quicksilver" 2
+		"Splinter (Proton)" 1
+	variant 10
+		"Freighter" 4
+		"Protector" 1
+	variant 2
+		"Freighter" 4
+		"Protector (Laser)" 1
+	variant 2
+		"Freighter" 4
+		"Protector (Proton)" 1
+	variant 10
+		"Bulk Freighter" 2
+		"Protector" 1
+	variant 10
+		"Bulk Freighter" 2
+		"Wasp" 3
+		"Wasp (Meteor)" 2
+	variant 10
+		"Bulk Freighter" 2
+		"Vanguard" 1
+	variant 1
+		"Bulk Freighter (Heavy)" 2
+		"Protector (Laser)" 1
+	variant 1
+		"Bulk Freighter (Proton)" 2
+		"Protector (Proton)" 1
+	variant 1
+		"Bulk Freighter (Heavy)" 2
+		"Vanguard (Particle)" 1
+	variant 1
+		"Bulk Freighter (Heavy)" 2
+		"Vanguard (Missile)" 1
+	variant 1
+		"Bactrian"
+		"Dagger" 3
+	variant 1
+		"Bactrian"
+		"Lance" 3

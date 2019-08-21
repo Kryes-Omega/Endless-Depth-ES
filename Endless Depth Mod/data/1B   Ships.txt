@@ -36,5 +36,5 @@ ship "Jump Tanker"
 	engine 5 35
 	turret -7 -26
 	explode "tiny explosion" 4
-	"final explode" "final explosion huge"
+	"final explode" "final explosion large"
 	description "Used by ??? for long scavenging operations. Once a simple transport vessel used by fuel refineries, the tanker has become a mainstay of scavenger fleets throughout the Triangulum galaxy. It is equipped with a not-so-modest built-in ramscoop and carries a huge amount of fuel. Any fleet sporting one of these is assured to make it back to port when they need to, provided they don't run into trouble."
