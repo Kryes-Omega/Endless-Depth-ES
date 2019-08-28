@@ -1,0 +1,116 @@
+# Variants need to be made for freighters to be used in the Convoy fleets so that they can't be captured so easily. It's an important cargo convoy, why wouldn't they be expecting pirates?
+# For the Boarding Defense variants, I've put one Security Station per min. crew, plus enough laser rifles for half of the remaining bunks.
+# Since NPCs spawn with a random amount of crew above the minimum, I think its good to have spares in the armory.
+
+ship "Freighter" "Freighter (Boarding Defense)"
+	outfits
+		"Blaster Turret" 2
+		"Heavy Anti-Missile Turret"
+		"nGVF-EE Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Scram Drive"
+		"Laser Rifle" 2
+		"Security Station" 4
+
+ship "Behemoth" "Behemoth (Boarding Defense)"
+	outfits
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		"Laser Rifle" 7
+		"Security Station" 16
+
+ship "Bulk Freighter" "Bulk Freighter (Boarding Defense)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Laser Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		"Laser Rifle" 5
+		"Security Station" 9
+
+ship "Argosy" "Argosy (Boarding Defense)"
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"Laser Rifle" 5
+		"Security Station" 5
+
+ship "Hauler" "Hauler (Boarding Defense)"
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"Laser Rifle" 4
+		"Security Station" 5
+
+ship "Hauler II" "Hauler II (Boarding Defense)"
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"Laser Rifle" 4
+		"Security Station" 5
+
+ship "Hauler III" "Hauler III (Boarding Defense)"
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"Laser Rifle" 4
+		"Security Station" 5
+
+# Below here I'm going to be putting Scavenger variants of ships. They will definitely have more boarding capability than regular pirates (not sure why they aren't but I'm not messing with them for now) and may even use nerve gas.
+# I'm not sure whether I will need to make new loadouts for the ships, but seeing as beam weapons are the prime choice for capping and mining, they will definitely be equipped with those primarily.
+
+# I will also be utilizing variants for the larger salvage ships (for use in the salvage jobs) rather than making new ships entirely. 
+# Some will be usable. They will have a new damaged looking ship image, permanent hull damage and lowered value (before depreciation), and some damaged outfits (Damaged Hyperdrive, Engines) which will need to be replaced in order to use the ship. If the system you're in doesn't have an outfitter, you're out of luck.
+# Some will be completely wrecked and unusable. They will be identical stat-wise to their usable variants except the value will be even lower and they will have zero outfit space to prevent replacement of damaged outfits.

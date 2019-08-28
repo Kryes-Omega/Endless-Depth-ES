@@ -3,7 +3,6 @@ phrase "generic hunted merchant fleet boarded dialog"
 		# Make the stolen cargo outfits illegal, some portion of how much they're worth.
 		`The cargo the <npc> is carrying should fetch a good price, but the authorities will be watching for it.`
 
-# I still need to create the valuables these convoys will carry, but other than that they are finished.
 # Possibly change them to an auto-triggering mission with a warning in the spaceport, sort of like a traffic warning but its a pirate raid?
 
 mission "Merchant Fleet (Paradise/Near Earth)"
@@ -18,11 +17,11 @@ mission "Merchant Fleet (Paradise/Near Earth)"
 	source
 		attributes "near earth" paradise
 	destination
-		distance 	1 3
+		distance 	1 6
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 			confusion 10
 		system destination
 		fleet "Large Northern Pirates"
@@ -47,11 +46,11 @@ mission "Merchant Fleet (Deep)"
 		government "Republic"
 		attributes "deep" 
 	destination
-		distance 1 3
+		distance 1 6
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Northern Pirates"
 	npc board
@@ -73,11 +72,11 @@ mission "Merchant Fleet (Pirate Northern)"
 	source
 		attributes "north pirate"
 	destination
-		distance 2 4
+		distance 2 8
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Northern Pirates"
 	npc board
@@ -100,11 +99,11 @@ mission "Merchant Fleet (Lawful Northern)"
 		government "Republic" "Syndicate"
 		attributes "north"
 	destination
-		distance 1 3
+		distance 1 6
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Northern Pirates"
 	npc board
@@ -126,11 +125,11 @@ mission "Merchant Fleet (Pirate Southern)"
 	source
 		attributes "south pirate"
 	destination
-		distance 2 4
+		distance 2 8
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Southern Pirates"
 	npc board
@@ -153,11 +152,11 @@ mission "Merchant Fleet (Lawful Southern)"
 		government "Free Worlds" "Republic"
 		attributes "dirt belt" rim south
 	destination
-		distance 1 3
+		distance 1 6
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Southern Pirates"
 	npc board
@@ -179,11 +178,11 @@ mission "Merchant Fleet (Pirate Core)"
 	source
 		attributes "core pirate"
 	destination
-		distance 2 4
+		distance 2 8
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Core Pirates"
 	npc board
@@ -206,11 +205,11 @@ mission "Merchant Fleet (Lawful Core)"
 		government "Syndicate"
 		attributes "core"
 	destination
-		distance 1 3
+		distance 1 6
 
 	npc
 		government "Pirate"
-		personality heroic waiting plunders harvests
+		personality heroic waiting staying plunders harvests
 		system destination
 		fleet "Large Core Pirates"
 	npc board

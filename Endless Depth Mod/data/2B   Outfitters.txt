@@ -2,7 +2,9 @@
 outfitter "salvage"
 	"Junk Part"
 	"Weapon Part"
-	"Fuel Cell Part"
+	"Reactor Part"
+	"Engine Part"
 
 # obviously I'm missing some outfits here.
 outfitter "valuables"
+	"Experimental Technology"
