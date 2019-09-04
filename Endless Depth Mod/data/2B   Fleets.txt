@@ -287,31 +287,61 @@ fleet "Large Core Convoy"
 		"Protector (Proton)"
 
 # Scavenger fleets will always feature a freighter of some sort. Like regular pirates they heavily favor the Argosy for it's balanced utility.
-# Scavenger fleets will always carry cargo from the "salvage" outfitter.
+# Scavenger fleets won't carry cargo as they need to gather stuff.
 
 fleet "Northern Scavengers"
 	government "Scavenger"
 	names "civilian"
-	outfitters "salvage"
-	cargo 3
+	cargo 0
 	personality
 		confusion 20
 		timid frugal mining harvests plunders
+	variant 5
+		"Sparrow" 2
+		"Freighter"
+	variant 3
+		"Fury (Laser)" 2
+		"Freighter"
+	variant 2
+		"Berserker" 2
+		"Freighter"
+	variant 1
+		"Headhunter"
 
 fleet "Southern Scavengers"
 	government "Scavenger"
 	names "civilian"
-	outfitters "salvage"
-	cargo 3
+	cargo 0
 	personality
 		confusion 20
 		timid frugal mining harvests plunders
+	variant 2
+		"Sparrow" 2
+		"Freighter"
+	variant 2
+		"Fury (Laser)" 2
+		"Freighter"
+	variant 2
+		"Hawk" 2
+		"Freighter"
+	variant 5
+		"Argosy"
 
 fleet "Core Scavengers"
 	government "Scavenger"
 	names "civilian"
-	outfitters "salvage"
-	cargo 3
+	cargo 0
 	personality
 		confusion 20
 		timid frugal mining harvests plunders
+	variant 5
+		"Sparrow" 2
+		"Freighter"
+	variant 3
+		"Fury (Laser)" 2
+		"Freighter"
+	variant 2
+		"Hawk" 2
+		"Freighter"
+	variant 1
+		"Quicksilver"

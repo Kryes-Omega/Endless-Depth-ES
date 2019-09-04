@@ -223,3 +223,31 @@ mission "Merchant Fleet (Lawful Core)"
 # Some will be regular salvage jobs, some may contain valuable cargo like the convoy fleets above, and some may have survivors if I can get that to work.
 # Which one is which will not be obvious at first for regular salvage jobs, although some may request specific items to be returned that only have value for the job.
 # The basic layout of the jobs will be: A derelict variant of a ship using the "Scrap" faction will start disabled in a nearby system, carrying unspecified cargo and outfits. The completion requirement is Board, and there is no reward for completion other than the loot you get.
+
+mission "salvage test"
+	name "Derelict Freighter"
+	description "Talk around the spaceport is that there was a small skirmish in <system>. There may be something worth scavenging."
+	repeat
+	job
+	deadline 1 3
+	source
+		government "Pirate"
+	destination
+		distance 1 6
+	
+	npc
+		government "Scavenger"
+		personality waiting staying timid frugal mining harvests plunders
+		system destination
+		fleet "Northern Scavengers"
+	npc
+		government "Scavenger"
+		personality entering staying timid frugal mining harvests plunders
+		system destination
+		fleet "Northern Scavengers"
+	npc board
+		government "Scrap"
+		personality waiting derelict
+		system destination
+		# I am lacking derelicts still.
+		fleet "PLACEHOLDER"
