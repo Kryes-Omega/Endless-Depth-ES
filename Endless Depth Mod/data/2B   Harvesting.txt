@@ -4,7 +4,7 @@
 # I've included the estimated value for each minable to make sure they aren't crazily unbalanced. Numbers are not final.
 
 minable "junk part"
-	sprite "asteroid/iron/spin"
+	sprite "asteroid/junk part/spin"
 	hull 80
 	payload "Junk Part" 12
 	# EV: 7500
@@ -25,7 +25,7 @@ outfit "Junk Part"
 
 
 minable "weapon part"
-	sprite "asteroid/iron/spin"
+	sprite "asteroid/weapon part/spin"
 	hull 100
 	payload "Weapon Part" 6
 	# EV: 9000
@@ -46,7 +46,7 @@ outfit "Weapon Part"
 
 
 minable "reactor part"
-	sprite "asteroid/iron/spin"
+	sprite "asteroid/reactor part/spin"
 	hull 100
 	payload "Reactor Part" 8
 	# EV: 10000
@@ -67,7 +67,7 @@ outfit "Reactor Part"
 
 
 minable "engine part"
-	sprite "asteroid/iron/spin"
+	sprite "asteroid/engine part/spin"
 	hull 100
 	payload "Engine Part" 10
 	# EV: 8750
@@ -102,7 +102,7 @@ minable "derelict sparrow"
 
 # some common small outfits may drop rather than their 'parts' counterpart. These will be left at the bottom as they do not have an outfit counterpart to define here.
 minable "beam laser"
-	sprite "asteroid/iron/spin"
+	sprite "asteroid/weapon part/spin"
 	hull 110
 	payload "Beam Laser" 2
 	# EV: 14500
